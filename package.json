@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Respositorio para ensinamento do bootstrap4 turma 07/10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandamussio/Boostrap4.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "flexbox",
+    "css"
+  ],
+  "author": "Amanda Mussio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandamussio/Boostrap4/issues"
+  },
+  "homepage": "https://github.com/amandamussio/Boostrap4#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
