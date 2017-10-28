@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lists</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- retira o list style das li, não pega pro elementos filhos -->
+    <h3>Unstyled</h3>
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ul>
+                <li>subitem</li>
+                <li>subitem</li>
+            </ul>
+        </li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <h3>Inline</h3>
+    <ul class="list-inline">
+        <li class="list-inline-item">item</li>   
+        <li class="list-inline-item">item</li> 
+        <li class="list-inline-item">item</li>   
+    </ul>
+    
+</body>
+</html>
