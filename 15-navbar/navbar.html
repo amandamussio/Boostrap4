@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+    .bg-custom {
+        background-color: purple;
+    }
+    </style>
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-custom">
+        
+        <!-- logo -->
+        <a href="#" class="navbar-brand">Logo</a>
+        <!-- /logo -->
+
+        <!-- button toggler -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- /button toggler -->
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu 2</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu 3</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu 4</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="menu5">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Link</a>
+                        <a href="" class="dropdown-item">Link</a>
+                        <a href="" class="dropdown-item">Link</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input type="search" placeholder="Buscar" class="form-control mr-sm-2">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Ok</button>
+            </form>
+        </div>
+
+    </nav>
+    <!-- /navbar -->
+
+
+
+    <!-- SCRIPTS -->
+    <!-- jquery -->
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
