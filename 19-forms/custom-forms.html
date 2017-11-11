@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        .custom-file-control:lang(pt)::before {
+            content: 'Upload';
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Custom Forms</h1>
+
+        <form action="">
+
+            <!-- checkbox -->
+            <label for="noticias" class="custom-control custom-checkbox">
+                <input type="checkbox" id="noticias" class="custom-control-input">
+                <span class="custom-control-indicator"></span> 
+                <span class="custom-control-description">Deseja receber notícias?</span>
+            </label>
+            <!-- /checkbox -->
+
+            <p>Qual o sexo?</p>
+            <label for="masculino" class="custom-control custom-radio">
+                <input type="radio" name="sexo" id="masculino" class="custom-control-input">
+                <span class="custom-control-indicator"></span> 
+                <span class="custom-control-description">Maculino</span>
+            </label>
+
+            <label for="feminino" class="custom-control custom-radio">
+                <input type="radio" name="sexo" id="feminino" class="custom-control-input">
+                <span class="custom-control-indicator"></span> 
+                <span class="custom-control-description">Feminino</span>
+            </label>
+
+            <p>Select</p>
+
+            <select class="custom-select">
+                <option value="">Item 1</option>
+                <option value="">Item 2</option>
+            </select>
+
+            <p>File</p>
+
+            <label for="arquivo" class="custom-file">
+                <input type="file" id="arquivo" class="custom-file-input">
+                <span class="custom-file-control"></span>
+            </label>
+
+
+        </form>
+
+
+    </div>
+
+
+
+    <!-- SCRIPTS -->
+    <!-- jquery -->
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+.logo,
+.menu,
+.box,
+.chamada,
+.rodape {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.logo h1,
+.menu,
+.chamada,
+.rodape h6 {
+    font-size: 1.3rem;
+}
+
+.logo {
+    background-color: #ecd2da;
+}
+.menu {
+    background-color: #96d5cc;
+}
+.menu li {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chamada {
+    background-color: #9ea0d2;
+    margin-bottom: 1rem;
+}
+.chamada p {
+    margin-bottom: 0;
+}
+
+.rodape {
+    background-color: yellow;
+}

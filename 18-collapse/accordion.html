@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Accordion</h1>
+
+        <div id="accordion" role="tablist">
+
+            <!-- item -->
+            <div class="card">
+
+                <!-- elemento clicavel -->
+                <div class="card-header" id="cardOne">
+                    <h5 class="mb-0">
+                        <a href="#collapseOne" data-toggle="collapse" class="text-warning">Item 1</a>
+                    </h5>
+                </div>
+
+                <!-- elemento escondido -->
+                <!-- data parent -> mostra de qual grupo de collapse esse item pertence -->
+                <div class="collapse show" id="collapseOne" aria-labelledby="cardOne" data-parent="#accordion">
+                    <div class="card-body">
+                        O que deverá aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+
+            </div>
+            <!-- /item -->
+
+            <!-- item -->
+            <div class="card">
+
+                <!-- elemento clicavel -->
+                <div class="card-header" id="cardTwo">
+                    <h5 class="mb-0">
+                        <a href="#collapseTwo" data-toggle="collapse" class="text-warning">Item 2</a>
+                    </h5>
+                </div>
+
+                <!-- elemento escondido -->
+                <!-- data parent -> mostra de qual grupo de collapse esse item pertence -->
+                <div class="collapse" id="collapseTwo" aria-labelledby="cardTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        O que deverá aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+
+            </div>
+            <!-- /item -->
+
+            <!-- item -->
+            <div class="card">
+                    
+                <!-- elemento clicavel -->
+          
+                <a href="#collapseThree" data-toggle="collapse" class="text-warning">Item 3</a>
+         
+
+                <!-- elemento escondido -->
+                <!-- data parent -> mostra de qual grupo de collapse esse item pertence -->
+                <div class="collapse" id="collapseThree"  data-parent="#accordion">
+                    <div class="card-body">
+                        O que deverá aparecer quando clicar galera: Esse CARD SOU EU!
+                    </div>
+                </div>
+
+            </div>
+            <!-- /item -->
+
+        </div>
+
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <!-- jquery -->
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
